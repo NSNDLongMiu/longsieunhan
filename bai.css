@@ -1,0 +1,208 @@
+body{
+	padding : 0px ; 
+	margin : 0px ;
+}
+.head{
+	width : 1349px; 
+	height : 137px  ; 
+	margin : 0px auto ; 
+}
+.top_head{
+	width : 1349px; 
+	height : 95px  ; 
+	margin : 0px auto ; 
+	position : relative ;
+	bottom : 137px ; 
+}
+.top_head img{
+	margin : 18px 185px ; 
+}
+.top_head .img img{ 
+	position : relative ;
+	bottom : 84px ;
+	left : 517px ;
+}
+.bot_head{
+	width : 1349px; 
+	height : 42px  ;  
+	position : relative ;
+	bottom : 137px ;
+}
+.center{
+	width : 980px; 
+	height : 137px ; 
+	margin : 0px auto ; 
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background: url(images/nav-bg.png) ;
+}
+
+.menu li {
+  float: left;
+  border-right:1px solid gray;
+  position : relative ;
+  left : 184.5px ;
+  font: 13px ;
+  color: #5b5b5b;
+  line-height: 20px
+}
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+  background: url(images/nav-hover.png) repeat-x;
+}
+
+.active a{
+  background: url(images/nav-hover.png) repeat-x;
+}
+#mid {
+	width : 1349px; 
+	height : 1338px  ;  
+	margin : 0px auto ; 	
+}
+#search {
+	width : 1349px; 
+	height : 118px  ;  
+	background : lightblue ; 
+}
+#left_mid {
+	width : 184.5px; 
+	height : 1220px  ;  
+	background : green ; 
+	float : left ;
+}
+#content_mid {
+	width : 980px; 
+	height : 1220px  ;  
+	float : left ;
+	background : url(tabed-bg.png) repeat-x ; 
+}
+#services {
+	width : 980px; 
+	height : 80px  ;  
+}
+#text {
+	position : relative ;
+	left : 20px ;
+	top : 30px ; 
+	font-size: 22px;
+}
+#main {
+	width : 980px; 
+	height : 1140px  ; 
+}
+.border {
+	width : 326.6px; 
+	height : 5px  ;
+	background : url(pet-border.png) repeat-x ;
+	position : relative ;
+	top : 30px ; 
+}
+.picture {
+	width : 291px; 
+	height : 165px  ;
+	background : url(frame.png) repeat-x ;
+	position : relative ;
+	top : 45px ; 
+	left : 29px  ;
+}
+.picture img {
+	margin : 6px 7.5px ;
+}
+.picture:hover {
+  opacity: 0.5;
+}
+#cookingclasses {
+	width : 326.6px; 
+	height : 570px  ;
+	float : left ;
+}
+.text {
+	font-size : 20px ; 
+	position : relative ;
+	top : 18px ; 
+	left : 29px  ;
+}
+.lorem {
+	width : 280px; 
+	height : 170px  ;
+	margin : 60px 35px ; 
+}
+.more{
+	margin : 0px 200px ; 
+}
+.link {
+	text-decoration: none;
+	color : green ; 
+}
+.link:hover {
+    color: pink;
+}
+.button {
+  border-radius: 4px;
+  background: url(images/nav-bg.png) ;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 110px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -5px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#cooking {
+	width : 326.6px; 
+	height : 570px  ;
+	background : yellow ; 
+	float : left ;
+}
+#right_mid {
+	width : 184.5px; 
+	height : 1220px  ;  
+	background : blue ;
+	float : left ;	
+}
+#bot {
+	width :1349px;
+	height : 343px ; 
+	background : lightblue ; 
+	margin : 0px auto ; 
+}
+
+

@@ -1,0 +1,218 @@
+body{
+	padding : 0px ; 
+	margin : 0px ;
+}
+.head{
+	width : 1349px; 
+	height : 137px  ; 
+	margin : 0px auto ; 
+}
+.top_head{
+	width : 1349px; 
+	height : 95px  ; 
+	margin : 0px auto ; 
+	position : relative ;
+	bottom : 137px ; 
+}
+.top_head img{
+	margin : 18px 185px ; 
+}
+.top_head .img img{ 
+	position : relative ;
+	bottom : 84px ;
+	left : 517px ;
+}
+.bot_head{
+	width : 1349px; 
+	height : 42px  ;  
+	position : relative ;
+	bottom : 137px ;
+}
+.center{
+	width : 980px; 
+	height : 137px ; 
+	margin : 0px auto ; 
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background: url(images/nav-bg.png) ;
+}
+
+.menu li {
+  float: left;
+  border-right:1px solid gray;
+  position : relative ;
+  left : 184.5px ;
+  font: 13px ;
+  color: #5b5b5b;
+  line-height: 20px
+}
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+  background: url(images/nav-hover.png) repeat-x;
+}
+
+.active a{
+  background: url(images/nav-hover.png) repeat-x;
+}
+#mid {
+	width : 1349px; 
+	height : 1338px  ;  
+	margin : 0px auto ; 	
+}
+#search {
+	width : 1349px; 
+	height : 118px  ;  
+	background : lightblue ; 
+}
+#left_mid {
+	width : 184.5px; 
+	height : 1220px  ;  
+	background : green ; 
+	float : left ;
+}
+#content_mid {
+	width : 980px; 
+	height : 1220px  ;  
+	float : left ;
+	background : url(tabed-bg.png) repeat-x ; 
+}
+#services {
+	width : 980px; 
+	height : 140px  ;  
+}
+#text {
+	position : relative ;
+	left : 20px ;
+	top : 30px ; 
+	font-size: 22px;
+	color : gray ; 
+}
+#text_1 {
+	position : relative ;
+	left : 20px ;
+	top : 40px ;
+	color : gray ; 	
+}
+#content_left {
+	width : 600px; 
+	height : 1080px  ;  
+	background : pink ;
+	float : left ;	
+}
+#content_right {
+	width : 380px; 
+	height : 1080px  ;  
+	float : left ;
+	position : relative ; 
+	bottom : 80px ; 
+}
+#address {
+	width : 380px; 
+	height : 320px  ;  
+	float : left ;	
+}
+.picture {
+	width : 300px; 
+	height : 311px  ;
+	background : url(frame300x311.png) repeat-x ;
+	position : absolute;
+	left : 29px  ;
+}
+.tt {
+	width : 260px; 
+	height : 260px  ;
+	margin : 20px 20px   ;
+}
+#inquiries {
+	width : 380px; 
+	height : 320px  ;  
+	float : left ;	
+	margin-top : 50px ; 
+}
+.sale {
+	width : 300px; 
+	height : 311px  ;
+	background : url(frame301x235.png) repeat-x ;
+	position : relative ;
+	left : 29px  ;
+}
+.address_text {
+	font-size: 22px;
+	color : blue ; 
+}
+.if_text {
+	color : gray ; 
+	position : relative ;
+	top : 10px ; 
+}
+.recipe_text {
+	color : gray ; 
+	position : relative ;
+	top : 30px ; 
+}
+.border_top {
+	width : 250px; 
+	height : 5px  ;
+	background : url(pet-border.png) repeat-x ;
+	position : relative ;
+	top : 20px ; 
+}
+.border_bot {
+	width : 250px; 
+	height : 5px  ;
+	background : url(pet-border.png) repeat-x ;
+	position : relative ;
+	top : 40px ; 
+}
+.lh {
+	width : 250px; 
+	height : 95px  ; 
+	position : relative ; 
+	top : 60px ; 
+}
+.phone {
+	width : 180px; 
+	height : 25px  ; 
+	margin-bottom : 5px ;
+	position : relative ; 
+	bottom : 82px ; 
+	left : 40px ; 
+	color : gray ; 
+}
+.backbot {
+	width : 260px; 
+	height : 180px  ;
+	margin : 0px 20px   ; 
+}
+.salesinquiries_text {
+	font-size: 22px;
+	color : blue ; 
+	position : relative ; 
+	top : 20px ; 
+}
+#right_mid {
+	width : 184.5px; 
+	height : 1220px  ;  
+	background : blue ;
+	float : left ;	
+}
+#bot {
+	width :1349px;
+	height : 343px ; 
+	background : lightblue ; 
+	margin : 0px auto ; 
+	float : left ; 
+}
+
+
